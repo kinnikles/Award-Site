@@ -15,7 +15,7 @@ import React, { useEffect, useRef, useState } from "react";
 // - SVG backgrounds are drawn via <img>, so ensure they are flattened for consistent rendering.
 // - You can pre-load brand fonts with @font-face or Google Fonts if hosting this in a full site.
 
-export default function AwardTemplateBuilder() {
+export default function THEAWARDFORGE() {
   // Canvas base size in inches & dpi for high-res export
   const [sizeInches, setSizeInches] = useState({ w: 11, h: 8.5 });
   const [dpi, setDpi] = useState(300);
